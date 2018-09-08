@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'BentonSansBBVA-Bold';
+    src: url('../Font/bentonSansBBVA-Bold.woff2') format('woff2'); 
+  }
+@font-face {
+    font-family: 'BentonSansBBVA-Light';
+    src: url('../Font/bentonSansBBVA-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Book';
+    src: url('../Font/bentonSansBBVA-Book.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Medium';
+    src: url('../Font/bentonSansBBVA-Medium.woff2') format('woff2'); 
+}
+body.first-view {
+    font-family: 'BentonSansBBVA-Light';
+    color: black;
+    background-color: white;
+}
+
+body {
+    background-color: #054175;
+    font-family: 'BentonSansBBVA-Light';
+    color: white;
+}
+
+nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: white;
+}
+img {
+    width: 70%;
+    /*margin-top: -11.3%;*/
+}
+
+main.text-inputs.container.valign-wrapper {
+    margin-top: 10%;
+}
+
+button.btn.waves-effect.waves-light.center {
+    background-color: #009EE5;
+    margin-left: 15%;
+}
+
+h4 {
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+input.validate.user.center {
+    font-size: 220%;
+    border: none;
+    margin-left: 8%;
+    font-family: 'BentonSansBBVA-Bold';
+    margin-top: -5%;
+}
+
+input#password.validate.center {
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+div.row a.forgot-password {
+    color:white;
+    font-size: 80%;
+    margin-top: -12%;
+}
+
+a {
+    color:white;
+    font-size: 80%;
+    padding: 2%;
+}
+
+i.material-icons.menu {
+    color: #004B93;
+    margin-top: -25%;
+    font-size: 250%;
+}
+
+span.loan-promotion.col.s8.center{
+    border: 1px #80C517 solid;
+    border-radius: 8%;
+    padding: 2%;
+    font-family: 'BentonSansBBVA-Book';
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+span.loan-promotion i,
+span.loan-promotion span {
+    color: #80C517;
+}

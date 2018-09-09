@@ -26,7 +26,7 @@ if (window.location.href.indexOf('first') > 0) {
 if (window.location.href.indexOf('scan') > 0) {
   document.getElementById('qrbutton').addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../amount.html');
+    window.location.assign('./amount.html');
   });
 }
 
@@ -34,14 +34,13 @@ if (window.location.href.indexOf('scan') > 0) {
 if (window.location.href.indexOf('amount') > 0) {
   confirmAmount.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./public/preview-payment.html');
+    window.location.assign('./preview-payment.html');
   });
 }
 
 if (window.location.href.indexOf('payment') > 0) {
   confirmPayment.addEventListener('click', (e) => {
     // alert
-
     swal({
       title: '¡Felicidades!',
       text: 'Tu pago se realizo con éxito',
@@ -49,7 +48,7 @@ if (window.location.href.indexOf('payment') > 0) {
       button: 'Continuar',
     })
     .then((value) => {
-        location.href = ('./public/comprobanteFinal.html');
+        location.href = ('./comprobanteFinal.html');
       });
   });
 }
@@ -57,7 +56,7 @@ if (window.location.href.indexOf('payment') > 0) {
 if (window.location.href.indexOf('comprobanteFinal') > 0) {
   finalizeTransaction.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('public/first-view.html');
+    window.location.assign('./first-view.html');
   });
 }
 // toMenu.addEventListener('click', (e) => {

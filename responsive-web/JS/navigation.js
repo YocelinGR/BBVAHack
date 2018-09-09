@@ -8,7 +8,6 @@ const debitCard = document.getElementById('debit');
 const amount = document.getElementById('amount')
 const concept = document.getElementById('concept')
 
-
 if (window.location.href.indexOf('login') > 0) {
   connectBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
@@ -29,7 +28,6 @@ if (window.location.href.indexOf('scan') > 0) {
     window.location.assign('./amount.html');
   });
 }
-
 
 if (window.location.href.indexOf('amount') > 0) {
   confirmAmount.addEventListener('click', (e) => {
@@ -59,7 +57,4 @@ if (window.location.href.indexOf('comprobanteFinal') > 0) {
     window.location.assign('./first-view.html');
   });
 }
-// toMenu.addEventListener('click', (e) => {
-//     event.preventDefault(e);
-//     window.location.assign('./login.html');
-// });
+

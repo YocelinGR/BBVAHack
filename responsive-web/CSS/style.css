@@ -236,3 +236,23 @@ i.far.fa-credit-card.debit {
 i.far.fa-credit-card.credit {
     color: #009EE5;
 }
+
+section.chart {
+    margin-top: 10%;
+}
+
+.qr-sales {
+    margin-top: 10%;
+}
+
+input.col.s6.datepicker.center {
+    background-color: white;
+    margin-left: 23.3%;
+}
+
+i.far.fa-calendar-alt.calendar {
+    color: #054175;
+    margin-left: -27.3%;
+    font-size: 230%;
+    margin-top: 1%;
+}

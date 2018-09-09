@@ -2,7 +2,7 @@
 #  Simplificacion del proceso de pago con QR
 
 
-
+re
 ###  Un poco de historia.
 
 Los códigos QR fueron creados **en 1994 por Denso Wave, subsidiaria de Toyota**, y su nombre viene del inglés **quick response**, o  respuesta rápida, ya que el objetivo de sus creadores era inventar un código que se leyese de manera rápida. Los códigos QR son muy populares en Japón, de hecho, son el código bidimensional más popular en el país nipón.

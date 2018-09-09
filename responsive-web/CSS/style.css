@@ -186,7 +186,7 @@ p.center {
     color:
 }*/
 main.container.valign-wrapper.amount {
-    margin-top: 50%;
+    margin-top: 35%;
 }
 
 input.validate.input {
@@ -198,10 +198,8 @@ input.validate.input {
     left: 17%;
 }
 
-
 #qrbutton {
     margin-left: 33.3%;
-    
     background-color: #054175;
 
 }
@@ -219,4 +217,22 @@ main.container.blue-bg {
 h5.col.s12.center.scan {
     background-color: #054175;
     color: white;
+}
+
+h5.center.concept-title {
+    font-size: 130%;
+}
+
+section.button-card button.btn.waves-effect.waves-light.col.s6.center {
+    background-color: white;
+    margin-top: 15%;
+    margin-bottom: -30%;
+    color: #054175;
+}
+
+i.far.fa-credit-card.debit {
+    color: #DAA520	;
+}
+i.far.fa-credit-card.credit {
+    color: #009EE5;
 }

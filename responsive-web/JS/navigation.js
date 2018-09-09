@@ -3,18 +3,23 @@ const QRBtn = document.getElementById('qr');
 const confirmPayment = document.getElementById('confirm-payment');
 const confirmAmount = document.getElementById('confirm-amount');
 const finalizeTransaction = document.getElementById('to-menu');
+const creditCard = document.getElementById('credit');
+const debitCard = document.getElementById('debit');
+const amount = document.getElementById('amount')
+const concept = document.getElementById('concept')
+
 
 if (window.location.href.indexOf('login') > 0) {
   connectBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./public/first-view.html');
+    window.location.assign('./first-view.html');
   });
 }
 
 if (window.location.href.indexOf('first') > 0) {
   QRBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./public/qrscan.html');
+    window.location.assign('./qrscan.html');
   });
 }
 

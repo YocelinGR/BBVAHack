@@ -40,6 +40,14 @@
             <li><a href="public/login.html">Salir</a></li>
           </ul>
 
+          <section class="button-card">
+          <button class="btn waves-effect waves-light col s6 center" id="debit" type="submit" name="action"><i class="far fa-credit-card credit"></i>
+            Débito
+        </button> 
+        <button class="btn waves-effect waves-light col s6 center" id="credit" type="submit" name="action"><i class="far fa-credit-card debit"></i>
+            Crédito
+        </button> 
+    </section>
     <main class="container valign-wrapper amount">
         <div class="row">
             <h5 class="center">Monto a pagar:</h5>
@@ -47,7 +55,16 @@
                 <div class="row">
                     <div class="input-field col s12 amount-input">
                         <input id="number" type="number" class="validate input">
-                        <label for="number">$</label>
+                        <label for="number"><i class="fas fa-dollar-sign"></i>
+                        </label>
+                    </div>
+                </div>
+                <h5 class="center concept-title">Concepto:</h5>
+                <div class="row">
+                    <div class="input-field col s12 amount-input">
+                        <input id="concept" type="text" class="validate text">
+                        <label for="concept"><i class="fas fa-pen"></i>
+                        </label>
                     </div>
                 </div>
             </form>
